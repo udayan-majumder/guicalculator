@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#28282B;
+}
+.main-body{
+    height:400px;
+    width:400px;
+    align-items: center;
+    position: relative;
+    top:50px;
+    left:400px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.7);
+}
+.numfield{
+    position: absolute;
+    top:0;
+    left: 0;
+    border: none;
+    outline:none;
+    height:80px;
+    width:100%;
+    font-size: 50px;
+    border-bottom: 2px solid rgba(8, 8, 8,0.5);
+    background-color: #28282b;
+    color: #fff;
+    padding: 0px 20px;
+    letter-spacing: 2px;
+}
+.buttons-inside{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    top:85px;
+    padding: 5px 5px;
+
+}
+.btn{
+height: 65px;
+width:90px;
+box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+background-color: 	#343434;
+border: none;
+border-radius:30px;
+color:#fff;
+font-size: 22px;
+font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(97, 93, 93);
+    border:none;
+    outline: none;
+    opacity: 0.8;
+}
+
+
